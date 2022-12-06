@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiServices", "ApiServices"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginSecurity", "LoginSecurity\LoginSecurity.csproj", "{341FFD88-DCAE-4811-91F8-ECC07C9A231B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankManagement_WPF", "BankManagement_WPF\BankManagement_WPF.csproj", "{FA5F22A6-AEF5-434F-BE03-75910FE88E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankManagement_WPF", "BankManagement_WPF\BankManagement_WPF.csproj", "{FA5F22A6-AEF5-434F-BE03-75910FE88E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMSTest", "BMSTest\BMSTest.csproj", "{323EDC6C-C764-4273-8714-B51AA1116D69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{FA5F22A6-AEF5-434F-BE03-75910FE88E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA5F22A6-AEF5-434F-BE03-75910FE88E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA5F22A6-AEF5-434F-BE03-75910FE88E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323EDC6C-C764-4273-8714-B51AA1116D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323EDC6C-C764-4273-8714-B51AA1116D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323EDC6C-C764-4273-8714-B51AA1116D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323EDC6C-C764-4273-8714-B51AA1116D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
