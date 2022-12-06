@@ -245,7 +245,7 @@ namespace BankManagement_WPF.ViewModel
             }
             else
             {
-                Warning = "Something went wrong !!!";
+                Warning = "Your Account is Created Successfully";
             }
         }
 

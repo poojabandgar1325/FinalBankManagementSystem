@@ -43,11 +43,13 @@
                 ItemsSource="{Binding LoanDetails}"
                 AutoGenerateColumns="False"               
                 CanUserAddRows="False"
-                CanUserDeleteRows="False">
+                CanUserDeleteRows="False"
+                IsReadOnly="True">
+                
                 <!--AlternatingRowBackground="LightSkyBlue"-->
 
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Loan Id" Width="auto" Binding="{Binding LoanId}"/>
+                <DataGrid.Columns >
+                    <DataGridTextColumn Header="Loan Id" Width="auto" Binding="{Binding LoanId}" />
                     <DataGridTextColumn Header="Loan Type" Width="*" Binding="{Binding LoanType}"/>
                     <DataGridTextColumn Header="Loan Amount" Width="*" Binding="{Binding LoanAmount}"/>
                     <DataGridTextColumn Header="Date" Width="*" Binding="{Binding LoanDate,StringFormat=d}"/>

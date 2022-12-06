@@ -121,7 +121,7 @@ namespace BankManagement_WPF.ViewModel
             }
 
             float duration = float.Parse(LoanDuration);
-            ROI = (duration/12).ToString();
+            ROI = (duration/6).ToString();
 
             string[] dates = LoanDate.Split(" ")[0].Split("/");
             string myDate = dates[1] + "/" + dates[0] + "/" + dates[2];

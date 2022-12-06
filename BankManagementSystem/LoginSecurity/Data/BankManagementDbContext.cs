@@ -13,13 +13,5 @@ namespace LoginSecurity.Data
         public DbSet<UserDetail> UserDetails { get; set; }
         public DbSet<LoanDetail> LoanDetails { get; set; }
 
-        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<LoginDetail>().ToTable("LoginDetail");
-            modelBuilder.Entity<UserDetail>().ToTable("UserDetail");
-            modelBuilder.Entity<LoanDetail>().ToTable("LoanDetail");
-
-            base.OnModelCreating(modelBuilder);
-        }*/
     }
 }

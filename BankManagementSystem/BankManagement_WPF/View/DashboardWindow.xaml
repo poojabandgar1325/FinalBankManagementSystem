@@ -28,6 +28,11 @@
                    HorizontalAlignment="Center"
                    Margin="10,0"/>
         </Grid>
+        <Label HorizontalAlignment="Right"
+            Content="UserName"
+            />
+        <Label Foreground="Blue" HorizontalAlignment="Right" x:Name="lblname" Content="{Binding UserName, Source={StaticResource userDetailVm}}" />
+
 
         <Grid
             Margin="35">

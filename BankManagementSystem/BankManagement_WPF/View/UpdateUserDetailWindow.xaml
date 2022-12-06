@@ -14,10 +14,10 @@
     
     <StackPanel Background="Silver"
         Margin="10">
-        <Label
+        <Label HorizontalAlignment="Right"
             Content="UserName"
-            Foreground="Blue"/>
-        <Label x:Name="lblname" Content="{Binding UserName, Source={StaticResource userDetailVm}}" />
+            />
+        <Label Foreground="Blue" HorizontalAlignment="Right" x:Name="lblname" Content="{Binding UserName, Source={StaticResource userDetailVm}}" />
        
         <Separator 
             Background="Black"/>
