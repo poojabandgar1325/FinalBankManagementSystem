@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BankManagement_WPF\BankManagement_WPF.csproj" />
     <ProjectReference Include="..\LoginSecurity\LoginSecurity.csproj" />
   </ItemGroup>
 
